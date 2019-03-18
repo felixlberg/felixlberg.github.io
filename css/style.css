@@ -1,6 +1,6 @@
 /**
  * GENERAL
- * 
+ *
  * HEADER
  * - header-classic
  * - header-bimg
@@ -229,7 +229,7 @@ a:hover {
   }
 }
 .header-bimg-fullw {
-  background-image: url(../media/profile/user-bg-invert.jpg);
+  background-color: LightGrey;
   background-size: cover;
   padding-left: 15px;
   padding-right: 15px;
@@ -613,14 +613,9 @@ li:before {
   ================================================================*/
 .addon .addon-left {
   left: 0;
-  border-bottom-right-radius: 2px;
-  border-top-right-radius: 2px;
 }
 .addon .addon-right {
   right: 24px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
 }
 .addon .settings-btn,
 .addon .contact-btn,
@@ -853,7 +848,7 @@ body.modal-open {
   -webkit-animation-delay: -0.8s;
   animation-delay: -0.8s;
 }
-@-moz-keyframes dance { 
+@-moz-keyframes dance {
 from  {
   background: rgba(106, 194, 147, 0.9);
 }
@@ -861,8 +856,8 @@ to {
   background: rgba(106, 194, 147, 0.32);
   -webkit-transform: scale(0.65);
 }
-} 
-@-webkit-keyframes dance { 
+}
+@-webkit-keyframes dance {
 from  {
   background: rgba(106, 194, 147, 0.9);
 }
@@ -870,8 +865,8 @@ to {
   background: rgba(106, 194, 147, 0.32);
   -webkit-transform: scale(0.65);
 }
-} 
-@-o-keyframes dance { 
+}
+@-o-keyframes dance {
 from  {
   background: rgba(106, 194, 147, 0.9);
 }
@@ -879,8 +874,8 @@ to {
   background: rgba(106, 194, 147, 0.32);
   -webkit-transform: scale(0.65);
 }
-} 
-@-ms-keyframes dance { 
+}
+@-ms-keyframes dance {
 from  {
   background: rgba(106, 194, 147, 0.9);
 }
@@ -888,8 +883,8 @@ to {
   background: rgba(106, 194, 147, 0.32);
   -webkit-transform: scale(0.65);
 }
-} 
-@keyframes dance { 
+}
+@keyframes dance {
 from  {
   background: rgba(106, 194, 147, 0.9);
 }
@@ -897,7 +892,7 @@ to {
   background: rgba(106, 194, 147, 0.32);
   -webkit-transform: scale(0.65);
 }
-} 
+}
  .box-dance {
   -webkit-animation-name: dance;
   animation-name: dance;
